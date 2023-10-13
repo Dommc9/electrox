@@ -1,0 +1,39 @@
+.App {
+    font-family: 'Oxygen', sans-serif;
+    height: max-content;
+    background: rgb(132,132,132);
+    background: linear-gradient(0deg, rgba(132,132,132,1) 0%, rgba(0,0,0,1) 71%);
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif; /* Asegúrate de que el nombre de la fuente esté correctamente escrito */
+    padding: 5rem; /* Ajustado para un mejor aspecto */
+  }
+  
+  .button-container button {
+    padding: 10px 20px; /* Reducido el espacio para que se vea más proporcionado */
+    font-size: 16px;
+    background-color: #212226;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    overflow: hidden;
+    padding: 1.5rem 0 !important;
+    transition: background-color 0.20s ease, transform 0.20s ease;
+    font-weight: bold;
+  }
+  
+  .button-container button:hover {
+    background-color: #ffff33;
+    color: black;
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.3);
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  
